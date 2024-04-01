@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/product_margin_16dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.whatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginTop="68dp" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.whatsapp.WaTextView android:text="@string/encrypted_backup_confirm_disable_title" style="@style/EncryptedBackupTitle"/>
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="43dp" android:src="@drawable/ic_wa_locked" android:contentDescription="@string/about_logo_content_description" app:tint="@color/icon_color_v2"/>
+            <com.whatsapp.WaTextView android:text="@string/encrypted_backup_confirm_disable_replace_notice" style="@style/EncryptedBackupBody"/>
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="43dp" android:src="@drawable/ic_wa_locked" android:contentDescription="@string/about_logo_content_description" app:tint="@color/icon_color_v2"/>
+            <com.whatsapp.WaTextView android:text="@string/encrypted_backup_disable_restore_notice" style="@style/EncryptedBackupBody"/>
+        </com.whatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.components.Button android:id="@+id/confirm_disable_disable_button" android:text="@string/encrypted_backup_disable_button" style="@style/EncryptedBackupFullWidthButton"/>
+    <com.whatsapp.components.Button android:id="@+id/confirm_disable_cancel_button" android:text="@string/cancel" style="@style/EncryptedBackupFullWidthButtonBorderless"/>
+</LinearLayout>

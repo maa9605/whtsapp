@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:background="@color/chat_banner_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/conversations_row_height">
+    <FrameLayout android:id="@+id/banner_image_container" android:layout_width="@dimen/contact_selector_width" android:layout_height="match_parent">
+        <com.whatsapp.TextEmojiLabel android:textSize="20sp" android:textColor="@color/payments_onboarding_banner_icon_text_color" android:gravity="center" android:layout_gravity="center" android:id="@+id/banner_image" android:background="@drawable/payments_banner_circle" android:layout_width="32dp" android:layout_height="32dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/chat_banner_text" android:layout_gravity="center" android:id="@+id/banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/Text"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="14sp" android:textStyle="bold" android:textColor="@color/chat_banner_text" android:gravity="left" android:layout_gravity="center" android:id="@+id/banner_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="52dp" android:layout_height="match_parent">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/cancel" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_close" android:tint="@color/chat_banner_close" android:contentDescription="@string/close"/>
+    </FrameLayout>
+</LinearLayout>

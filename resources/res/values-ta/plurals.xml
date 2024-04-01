@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="one">‎%d முயற்சி மீதமுள்ளது</item>
+        <item quantity="other">‎%d முயற்சிகள் மீதமுள்ளன</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="one">பேமெண்ட்ஸ் அம்சத்தை பயன்படுத்த ஒரே நேரத்தில் %1$d நபருக்கு மேல் அழைக்க முடியாது.</item>
+        <item quantity="other">பேமெண்ட்ஸ் அம்சத்தை பயன்படுத்த ஒரே நேரத்தில் %1$d பேருக்கு மேல் அழைக்க முடியாது.</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="one">நாள் ஒன்றுக்கு %d பேமெண்ட் கோரிக்கை மட்டுமே அனுப்ப முடியும். பிறகு முயலவும்.</item>
+        <item quantity="other">நாள் ஒன்றுக்கு %d பேமெண்ட் கோரிக்கைகள் மட்டுமே அனுப்ப முடியும். பிறகு முயலவும்.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">‎%1$d தொடர்புக்கு அழைப்பிதழை அனுப்புகிறது</item>
+        <item quantity="other">‎%1$d தொடர்புகளுக்கு அழைப்பிதழை அனுப்புகிறது</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">நிலுவையிலுள்ள கோரிக்கை</item>
+        <item quantity="other">நிலுவையிலுள்ள கோரிக்கைகள்</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="one">இந்த கோரிக்கைக்கு ஒப்புதல் அளிக்க உங்களுக்கு %1$s உள்ளது</item>
+        <item quantity="other">இந்த கோரிக்கைக்கு ஒப்புதல் அளிக்க உங்களுக்கு %1$s உள்ளன</item>
+    </plurals>
+</resources>

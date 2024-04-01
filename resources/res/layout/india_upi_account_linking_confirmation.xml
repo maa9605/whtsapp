@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:src="@drawable/ic_hero_account_linking_confirmation" android:contentDescription="@null"/>
+            <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="@color/list_item_title" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="40dp" android:layout_marginRight="36dp" android:lineSpacingExtra="6dp" app:fontFamily="sans-serif-light"/>
+            <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_gravity="center" android:id="@+id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="16dp" android:layout_marginRight="36dp" android:lineSpacingExtra="6dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.components.Button android:layout_gravity="bottom|center_horizontal" android:id="@+id/primary_button" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="@string/btn_continue" android:maxLines="1" style="@style/WA.Button"/>
+            <com.whatsapp.components.Button android:layout_gravity="bottom|center_horizontal" android:id="@+id/secondary_button" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="35dp" android:text="@string/btn_continue" android:maxLines="1" style="@style/WA.Button.Secondary"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

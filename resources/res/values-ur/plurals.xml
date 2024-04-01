@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="one">‏%d کوشش باقی ہے</item>
+        <item quantity="other">‏%d کوششیں باقی ہیں</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="one">‏آپ ایک وقت میں %1$d سے زائد فرد کو پیمنٹس پر مدعو نہیں کر سکتے۔</item>
+        <item quantity="other">‏آپ ایک وقت میں %1$d سے زائد افراد کو پیمنٹس پر مدعو نہیں کر سکتے۔</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="one">‏آپ روزانہ پیمنٹ کی صرف %d درخواست بھیج سکتے ہیں۔ بعد میں دوبارہ کوشش کریں۔</item>
+        <item quantity="other">‏آپ روزانہ پیمنٹ کی صرف %d درخواستیں بھیج سکتے ہیں۔ بعد میں دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">‏%1$d رابطے کو دعوت بھیجی جا رہی ہے</item>
+        <item quantity="other">‏%1$d روابط کو دعوت بھیجی جا رہی ہے</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">‏زیرالتواء درخواست</item>
+        <item quantity="other">‏زیر التواء درخواستیں</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="one">‏آپ کے پاس اس درخواست کو منظور کرنے کیلئے %1$s باقی ہے</item>
+        <item quantity="other">‏آپ کے پاس اس درخواست کو منظور کرنے کیلئے %1$s باقی ہیں</item>
+    </plurals>
+</resources>

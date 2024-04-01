@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080050_error_to_fingerprint_icon__0">
+    <target android:name="path" android:animation="@drawable/res_0x7f080051_error_to_fingerprint_icon__1"/>
+    <target android:name="path_5" android:animation="@drawable/res_0x7f080052_error_to_fingerprint_icon__2"/>
+    <target android:name="path_8" android:animation="@drawable/res_0x7f080053_error_to_fingerprint_icon__3"/>
+    <target android:name="path_4" android:animation="@drawable/res_0x7f080054_error_to_fingerprint_icon__4"/>
+    <target android:name="path_10" android:animation="@drawable/res_0x7f080055_error_to_fingerprint_icon__5"/>
+    <target android:name="path_1" android:animation="@drawable/res_0x7f080056_error_to_fingerprint_icon__6"/>
+</animated-vector>

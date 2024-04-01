@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">আর %d বার চেষ্টা করতে পারবেন</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="other">আপনি একবারে %1$d জনের বেশি ব্যক্তিকে পেমেন্টের জন্য আমন্ত্রণ জানাতে পারবেন না।</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="other">আপনি প্রতিদিন %dটির বেশি পেমেন্ট করার অনুরোধ করতে পারবেন না। পরে আবার চেষ্টা করুন।</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="other">‎%1$d জন পরিচিতিকে আমন্ত্রণ পাঠানো হচ্ছে</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">বাকি থাকা অনুরোধ</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="other">আপনাকে %1$s মধ্যে এই অনুরোধের অনুমোদন করতে হবে</item>
+    </plurals>
+</resources>

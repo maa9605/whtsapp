@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/media_composer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/preview_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.whatsapp.gallerypicker.PhotoViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/preview_transition_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.whatsapp.WaImageView android:id="@+id/preview_transition" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+        </FrameLayout>
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    <RelativeLayout android:id="@+id/preview_decoration" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/remove_frame" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/drag_remove_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.whatsapp.WaTextView android:textSize="22dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/drag_remove" android:paddingTop="64dp" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" android:drawableLeft="@drawable/ic_remove_white" android:drawablePadding="2dp" android:textAllCaps="true"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/drag_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <com.whatsapp.mediacomposer.bottombar.BottomBarViewOld android:id="@+id/bottom_bar_old" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.mediacomposer.bottombar.BottomBarView android:id="@+id/bottom_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</FrameLayout>

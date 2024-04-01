@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/business_details_actions" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.contact.view.custom.ContactDetailsActionIcon android:id="@+id/action_message" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icIcon="@drawable/ic_action_message" app:icTitle="@string/contact_details_action_icon_message"/>
+    <com.whatsapp.contact.view.custom.ContactDetailsActionIcon android:id="@+id/action_call" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icIcon="@drawable/ic_action_call" app:icTitle="@string/contact_details_action_icon_call"/>
+    <com.whatsapp.contact.view.custom.ContactDetailsActionIcon android:id="@+id/action_shop" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icIcon="@drawable/ic_action_view_catalog" app:icTitle="@string/contact_details_action_icon_catalog"/>
+    <com.whatsapp.contact.view.custom.ContactDetailsActionIcon android:id="@+id/action_forward" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icIcon="@drawable/ic_action_forward" app:icTitle="@string/contact_details_action_icon_forward"/>
+</LinearLayout>

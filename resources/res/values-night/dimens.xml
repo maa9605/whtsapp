@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="payment_bubble_background_alpha">0.12</dimen>
+</resources>

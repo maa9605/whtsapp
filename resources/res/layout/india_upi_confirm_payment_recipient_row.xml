@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/payment_recipient_profile_pic" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="16dp" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/profile_photo"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/payment_recipient_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/secondary_text" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/confirm_payment_bottom_sheet_send_to" android:singleLine="true"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/payment_recipient_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListItemTitle"/>
+                <com.whatsapp.WaTextView android:textSize="14sp" android:textColor="@color/secondary_text" android:ellipsize="end" android:id="@+id/payment_recipient_vpa" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@+id/divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="72dp"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="one">‎%d pagsubok ang natitira</item>
+        <item quantity="other">‎%d (na) pagsubok ang natitira</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="one">Hindi ka makakapag-imbita ng lampas %1$d tao sa mga pagbabayad nang sabay-sabay.</item>
+        <item quantity="other">Hindi ka makakapag-imbita ng lampas %1$d (na) tao sa mga pagbabayad nang sabay-sabay.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">Ipapadala ang imbitasyon sa %1$d contact</item>
+        <item quantity="other">Ipapadala ang imbitasyon sa %1$d (na) contact</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">Nakabinbing request</item>
+        <item quantity="other">Mga nakabinbing request</item>
+    </plurals>
+</resources>

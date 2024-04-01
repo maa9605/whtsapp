@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/view_once_control_icon" android:background="@drawable/ic_ephemeral_ring" android:layout_width="@dimen/view_once_icon_size" android:layout_height="@dimen/view_once_icon_size" android:src="@drawable/ic_viewonce_download" android:scaleType="center"/>
+    <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/view_once_progressbar" android:visibility="gone" android:layout_width="@dimen/view_once_icon_size" android:layout_height="@dimen/view_once_icon_size" android:indeterminateOnly="false"/>
+</merge>

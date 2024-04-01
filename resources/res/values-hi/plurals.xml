@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="one">‎%d कोशिश बाकी</item>
+        <item quantity="other">‎%d कोशिशें बाकी</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="one">आप एक बार में %1$d से ज़्यादा व्यक्ति को पेमेंट फ़ीचर इस्तेमाल करने का आमंत्रण नहीं भेज सकते.</item>
+        <item quantity="other">आप एक बार में %1$d से ज़्यादा लोगों को पेमेंट फ़ीचर इस्तेमाल करने का आमंत्रण नहीं भेज सकते.</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="one">आप हर दिन सिर्फ़ %d पेमेंट का अनुरोध कर सकते हैं. बाद में फिर से कोशिश करें.</item>
+        <item quantity="other">आप हर दिन सिर्फ़ %d पेमेंट्स का अनुरोध कर सकते हैं. बाद में फिर से कोशिश करें.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">‎%1$d कॉन्टैक्ट को आमंत्रण भेजा जा रहा है</item>
+        <item quantity="other">‎%1$d कॉन्टैक्ट्स को आमंत्रण भेजा जा रहा है</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">अनुरोध का जवाब नहीं दिया गया</item>
+        <item quantity="other">किसी भी अनुरोध का जवाब नहीं दिया गया</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="one">आपके पास इस अनुरोध को स्वीकार करने के लिए %1$s है</item>
+        <item quantity="other">आपके पास इस अनुरोध को स्वीकार करने के लिए %1$s हैं</item>
+    </plurals>
+</resources>

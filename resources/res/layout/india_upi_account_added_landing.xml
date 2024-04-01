@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_hero_account_added_landing_mpin" android:contentDescription="@null"/>
+            <com.whatsapp.WaTextView android:textSize="24sp" android:textColor="@color/list_item_title" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/bankaccount_linking_confirmation_title_first_account_with_mpin" android:lineSpacingExtra="6dp" app:fontFamily="sans-serif-light"/>
+            <com.whatsapp.WaTextView android:textColor="@color/list_item_sub_title" android:gravity="center" android:layout_gravity="center" android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/bankaccount_linking_confirmation_desc_first_account" android:lineSpacingExtra="6dp"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="24dp"/>
+            <include android:id="@+id/account_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/india_upi_account_picker_list_row"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/primary_button" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:text="@string/btn_continue" android:maxLines="1" style="@style/WA.Button"/>
+    <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/secondary_button" android:layout_width="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:text="@string/btn_continue" android:maxLines="1" style="@style/WA.Button.Secondary"/>
+</LinearLayout>

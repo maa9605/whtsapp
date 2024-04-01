@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/dimmed_background" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View style="@style/ListTopShadow"/>
+    <com.whatsapp.group.GroupSettingsRowView android:id="@+id/restricted_mode_layout" android:layout_width="match_parent" android:layout_height="wrap_content" whatsapp:settingsRowTitleText="@string/group_settings_restricted_mode_title"/>
+    <View android:id="@+id/restricted_mode_separator" style="@style/FlatCardSeparator"/>
+    <View android:id="@+id/announcement_group_layout_top_shadow" android:visibility="gone" style="@style/ListTopShadow"/>
+    <com.whatsapp.group.GroupSettingsRowView android:id="@+id/announcement_group_layout" android:layout_width="match_parent" android:layout_height="wrap_content" whatsapp:settingsRowTitleText="@string/group_settings_announcement_title"/>
+    <View style="@style/ListBottomShadow"/>
+    <View android:id="@+id/frequently_forwarded_divider_top" style="@style/ListTopShadow"/>
+    <com.whatsapp.group.GroupSettingsRowView android:id="@+id/frequently_forwarded_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/frequently_forwarded_divider_bottom" style="@style/ListBottomShadow"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/manage_admins_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/ListTopShadow"/>
+        <FrameLayout android:background="@color/primary_surface" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textAppearance="@style/ListItemTitle" android:id="@+id/manage_admins" android:text="@string/edit_group_admins" style="@style/ContactInfoRow.GroupSetting"/>
+        </FrameLayout>
+        <View style="@style/ListBottomShadow"/>
+    </LinearLayout>
+</LinearLayout>

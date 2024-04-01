@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/business_details_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.whatsapp.InfoCard android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" style="@style/InfoCardTop">
+        <com.whatsapp.TextEmojiLabel android:textSize="24sp" android:textColor="@color/contact_qr_card_title" android:ellipsize="end" android:gravity="center" android:id="@+id/business_title" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <com.whatsapp.TextEmojiLabel android:textSize="18sp" android:textColor="@color/contact_qr_card_subtitle" android:ellipsize="end" android:gravity="center" android:id="@+id/business_subtitle" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/list_item_sub_title" android:gravity="center" android:id="@+id/business_categories" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:paddingRight="@dimen/info_screen_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/list_item_sub_title" android:gravity="center" android:id="@+id/business_hours_status" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:paddingRight="@dimen/info_screen_padding" android:paddingBottom="@dimen/business_field_view_top_bottom_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include layout="@layout/business_details_actions"/>
+        <View style="@style/CardSeparator"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/business_verification_status" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="@dimen/business_field_view_top_bottom_padding" android:paddingRight="@dimen/info_screen_padding" android:paddingBottom="@dimen/business_field_view_top_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/business_profile_this_is_a_business_row" android:layout_gravity="center" android:id="@+id/business_verification_status_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/business_profile_this_is_a_business_row" android:singleLine="true" android:layout_weight="1"/>
+            <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/business_verification_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_info" android:contentDescription="@string/business_info_icon" app:tint="@color/business_profile_this_is_a_business_row"/>
+        </LinearLayout>
+    </com.whatsapp.InfoCard>
+    <com.whatsapp.InfoCard android:id="@+id/syncing_from_fb_page_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" style="@style/InfoCard">
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/ic_settings_fb" app:tint="@color/settings_icon"/>
+            <com.whatsapp.WaTextView android:textSize="17sp" android:textColor="@color/list_item_title" android:gravity="top" android:id="@+id/syncing_from_fb_page_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/business_account_syncing_from_fb_page"/>
+        </LinearLayout>
+    </com.whatsapp.InfoCard>
+    <com.whatsapp.InfoCard android:id="@+id/business_profile_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_surface" style="@style/InfoCard">
+        <com.whatsapp.biz.BusinessProfileFieldView android:id="@+id/business_description" android:visibility="gone" style="@style/BusinessProfileFieldView"/>
+        <ViewStub android:id="@+id/business_profile_extra_fields_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:id="@+id/other_business_details_separator" android:visibility="gone" style="@style/FlatCardSeparator"/>
+        <ViewStub android:id="@+id/other_business_details_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.whatsapp.WaTextView android:gravity="center" android:id="@+id/blank_business_details_text" android:paddingLeft="@dimen/business_blank_info_prompt_padding" android:paddingRight="@dimen/business_blank_info_prompt_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/business_blank_info_screen_prompt_height" android:singleLine="false" style="@style/ListItemTitle"/>
+    </com.whatsapp.InfoCard>
+    <com.whatsapp.biz.catalog.CatalogMediaCard android:id="@+id/business_catalog_media_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/biz_profile_shops"/>
+</LinearLayout>

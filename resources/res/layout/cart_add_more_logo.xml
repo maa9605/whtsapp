@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaImageView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/cart_circle" android:padding="26dp" android:layout_width="112dp" android:layout_height="112dp" android:src="@drawable/cart_add_more_items_large" android:tint="@color/empty_cart_icon"/>

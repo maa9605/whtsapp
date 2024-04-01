@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="72dp"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/list_item_title" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/confirm_payment_bottom_sheet_total_label" app:fontFamily="sans-serif-medium"/>
+        <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/list_item_title" android:layout_gravity="end|center_vertical" android:id="@+id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" app:fontFamily="sans-serif-medium"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_list" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/no_internet_container" android:paddingLeft="60dp" android:paddingTop="120dp" android:paddingRight="60dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textSize="16sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/no_internet_connection_message" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_internet_connection_message"/>
+            <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/no_internet_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+    </FrameLayout>
+    <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/view_cart" android:layout_width="match_parent" android:layout_marginLeft="@dimen/product_margin_8dp" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginRight="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" android:text="@string/catalog_product_message_biz" style="@style/WA.Button"/>
+</LinearLayout>

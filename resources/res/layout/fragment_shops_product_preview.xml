@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingTop="@dimen/info_screen_card_spacing" android:paddingBottom="@dimen/info_screen_card_spacing" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaImageView android:id="@+id/shops_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shops_logo" app:layout_constraintBottom_toBottomOf="@+id/see_all" app:layout_constraintStart_toStartOf="0" app:tint="@color/business_account_light_grey"/>
+        <com.whatsapp.WaTextView android:textColor="@color/business_profile_link" android:id="@+id/see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/business_product_catalog_see_all" android:contentDescription="@string/business_product_catalog_see_all" android:textAllCaps="true" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="88dp" android:layout_marginTop="4dp">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_container" android:layout_width="match_parent" android:layout_height="match_parent" app:shimmer_auto_start="false" app:shimmer_highlight_alpha="0.7">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/placeholder_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <FrameLayout android:id="@+id/bk_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:minHeight="30dp">
+        <include layout="@layout/conversation_row_participant_header_with_padding"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/payment_bubble_margin_width" android:minWidth="@dimen/payment_bubble_amount_width">
+            <FrameLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@+id/conversation_row_payment_pattern" android:layout_width="match_parent" android:layout_height="@dimen/payment_bubble_amount_height" android:src="@drawable/payment_pattern" android:scaleType="center" android:alpha="@dimen/payment_bubble_background_alpha"/>
+                <com.whatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/payment_invite_bubble_icon"/>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="bottom|left" android:orientation="horizontal" android:background="@drawable/payments_message_bubble_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.TextEmojiLabel android:textColor="@color/primary_text" android:id="@+id/invite_description" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" app:fontFamily="sans-serif"/>
+                    <include layout="@layout/conversation_row_date_wrapper_left"/>
+                </com.whatsapp.components.TextAndDateLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.whatsapp.TextEmojiLabel android:textColor="@color/selector_payments_request_action" android:id="@+id/get_started" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/payment_get_started_button_text" style="@style/ConversationSharedContactButton"/>
+    </LinearLayout>
+</merge>

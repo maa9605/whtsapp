@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/green_alert_sticky_top_panel" android:background="@color/primary_surface" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+        <com.whatsapp.WaImageButton android:id="@+id/enc_backup_toolbar_button" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:src="@drawable/ic_back" android:tint="@color/black" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:contentDescription="@string/encrypted_backup_back_button_content_description" style="@style/ActionBarButtonStyle"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

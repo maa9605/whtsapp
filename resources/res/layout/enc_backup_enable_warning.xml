@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/product_margin_16dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/encrypted_backup_layout_horizontal_margin" android:layout_marginTop="22dp" android:layout_marginRight="@dimen/encrypted_backup_layout_horizontal_margin">
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginTop="70dp" android:layout_marginBottom="12dp" android:src="@drawable/ic_wa_locked" app:tint="@color/icon_color_v2"/>
+            <com.whatsapp.WaTextView android:layout_marginTop="26dp" android:text="@string/encrypted_backup_enable_warning_message" style="@style/EncryptedBackupBody"/>
+            <com.whatsapp.WaImageView android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginTop="73dp" android:layout_marginBottom="0dp" android:src="@drawable/ic_wa_locked" app:tint="@color/icon_color_v2"/>
+            <com.whatsapp.WaTextView android:background="@drawable/enc_backup_rounded_gray_bg" android:padding="20dp" android:layout_marginTop="5dp" android:text="@string/encrypted_backup_enable_warning_disclaimer" style="@style/EncryptedBackupBody"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.components.Button android:id="@+id/enable_warning_create_password_button" android:text="@string/encrypted_backup_enable_warning_create_password_button" style="@style/EncryptedBackupFullWidthButton"/>
+</LinearLayout>

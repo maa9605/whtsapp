@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">अजून %d वेळा प्रयत्न करू शकता</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="other">तुम्ही एकावेळी %1$d पेक्षा जास्त व्यक्तींना पेमेंट वापरण्यासाठी आमंत्रित करू शकत नाही.</item>
+    </plurals>
+    <plurals name="payments_max_requests_reached">
+        <item quantity="one">तुम्ही प्रत्येक दिवसाला %d पेमेंट विनंती पाठवू शकता. थोड्या वेळाने पुन्हा प्रयत्न करा.</item>
+        <item quantity="other">तुम्ही प्रत्येक दिवसाला %d पेमेंट विनंत्या पाठवू शकता. थोड्या वेळाने पुन्हा प्रयत्न करा.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">‎%1$d संपर्काला आमंत्रण पाठवत आहे</item>
+        <item quantity="other">‎%1$d संपर्कांना आमंत्रण पाठवत आहे</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">विनंती पेंडिंग आहे</item>
+        <item quantity="other">विनंत्या पेंडिंग आहेत</item>
+    </plurals>
+    <plurals name="upi_mandate_payment_request_status_time_remaining_to_approve">
+        <item quantity="one">तुमच्याकडे या विनंतीला मंजुरी देण्यासाठी %1$s आहे</item>
+        <item quantity="other">तुमच्याकडे या विनंतीला मंजुरी देण्यासाठी %1$s आहेत</item>
+    </plurals>
+</resources>

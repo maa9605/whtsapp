@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080039_ephemeral_setting__0">
+    <target android:name="_R_G_L_2_G_D_5_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08003a_ephemeral_setting__1"/>
+    <target android:name="_R_G_L_1_G_G_0_D_0_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080045_ephemeral_setting__2"/>
+    <target android:name="_R_G_L_1_G_G_0_D_1_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080049_ephemeral_setting__3"/>
+    <target android:name="_R_G_L_1_G_G_0_D_2_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004a_ephemeral_setting__4"/>
+    <target android:name="_R_G_L_1_G_G_0_D_3_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004b_ephemeral_setting__5"/>
+    <target android:name="_R_G_L_1_G_G_0_D_4_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004c_ephemeral_setting__6"/>
+    <target android:name="_R_G_L_1_G_G_0_D_5_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004d_ephemeral_setting__7"/>
+    <target android:name="_R_G_L_1_G_G_0_D_6_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004e_ephemeral_setting__8"/>
+    <target android:name="_R_G_L_1_G_G_0_D_7_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08004f_ephemeral_setting__9"/>
+    <target android:name="_R_G_L_1_G" android:animation="@drawable/res_0x7f08003b_ephemeral_setting__10"/>
+    <target android:name="_R_G_L_1_G" android:animation="@drawable/res_0x7f08003c_ephemeral_setting__11"/>
+    <target android:name="_R_G_L_0_G_G_0_D_0_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08003d_ephemeral_setting__12"/>
+    <target android:name="_R_G_L_0_G_G_0_D_1_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08003e_ephemeral_setting__13"/>
+    <target android:name="_R_G_L_0_G_G_0_D_2_P_0_G_0_T_0" android:animation="@drawable/res_0x7f08003f_ephemeral_setting__14"/>
+    <target android:name="_R_G_L_0_G_G_0_D_3_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080040_ephemeral_setting__15"/>
+    <target android:name="_R_G_L_0_G_G_0_D_4_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080041_ephemeral_setting__16"/>
+    <target android:name="_R_G_L_0_G_G_0_D_5_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080042_ephemeral_setting__17"/>
+    <target android:name="_R_G_L_0_G_G_0_D_6_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080043_ephemeral_setting__18"/>
+    <target android:name="_R_G_L_0_G_G_0_D_7_P_0_G_0_T_0" android:animation="@drawable/res_0x7f080044_ephemeral_setting__19"/>
+    <target android:name="_R_G_L_0_G" android:animation="@drawable/res_0x7f080046_ephemeral_setting__20"/>
+    <target android:name="_R_G_L_0_G" android:animation="@drawable/res_0x7f080047_ephemeral_setting__21"/>
+    <target android:name="time_group" android:animation="@drawable/res_0x7f080048_ephemeral_setting__22"/>
+</animated-vector>

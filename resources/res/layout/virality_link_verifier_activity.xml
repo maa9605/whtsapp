@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/virality_activity_root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/virality_bottom_sheet" android:background="@drawable/bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="225dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <com.whatsapp.WaFrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/progress_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textColor="@color/secondary_text" android:id="@+id/progress_text" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virality_invite_link_checking"/>
+                <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/virality_texts_container" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/secondary_text" android:id="@+id/payment_enabled_or_not_title" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virality_payments_enabled_title" app:fontFamily="sans-serif-medium"/>
+                <com.whatsapp.WaTextView android:textSize="16sp" android:textColor="@color/secondary_text" android:gravity="center_horizontal" android:id="@+id/virality_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virality_payments_enabled_description"/>
+            </LinearLayout>
+        </com.whatsapp.WaFrameLayout>
+        <LinearLayout android:gravity="right" android:id="@+id/actionable_container" android:padding="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaButton android:id="@+id/done_or_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+            <com.whatsapp.WaButton android:id="@+id/go_to_payments_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/virality_go_to_payments" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

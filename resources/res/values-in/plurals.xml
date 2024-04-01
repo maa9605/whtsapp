@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d upaya tersisa</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="other">Anda tidak dapat mengundang lebih dari %1$d kontak untuk menggunakan pembayaran pada waktu bersamaan.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="other">Mengirim undangan ke %1$d kontak</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">Permintaan tertunda</item>
+    </plurals>
+</resources>

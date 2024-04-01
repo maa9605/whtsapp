@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/payment_settings_default_margin" android:paddingTop="@dimen/settings_row_vertical_padding_small" android:paddingRight="@dimen/payment_settings_default_margin" android:paddingBottom="@dimen/settings_row_vertical_padding_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3">
+    <com.whatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/pay_hub_icon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/payment_settings_default_margin" android:src="@drawable/av_fb_pay"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="40dp" android:layout_weight="3">
+        <com.whatsapp.WaTextView android:textSize="@dimen/settings_title_text_size" android:textColor="@color/settings_item_title_text" android:id="@+id/pay_hub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook_pay"/>
+        <com.whatsapp.WaTextView android:textSize="@dimen/settings_subtitle_text_size" android:textColor="@color/settings_item_subtitle_text" android:id="@+id/pay_hub_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook_pay_hub_desc" android:maxLines="10"/>
+    </LinearLayout>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+        <com.whatsapp.WaImageView android:id="@+id/pay_hub_add" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_action_add" android:tint="@color/settings_accented_text"/>
+        <com.whatsapp.WaImageView android:id="@+id/pay_hub_chevron" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_margin="6dp" android:src="@drawable/chevron_right"/>
+        <com.whatsapp.WaImageView android:id="@+id/pay_hub_alert" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="8dp" android:src="@drawable/ic_alert_round" android:tint="@color/settings_alert_tint"/>
+    </FrameLayout>
+</LinearLayout>

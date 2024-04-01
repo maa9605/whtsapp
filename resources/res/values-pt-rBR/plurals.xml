@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="one">Tentativa restante: %d</item>
+        <item quantity="other">Tentativas restantes: %d</item>
+    </plurals>
+    <plurals name="payments_invite_limit_warning">
+        <item quantity="one">Não é possível convidar mais de %1$d pessoa para usar o serviço de pagamentos de uma só vez.</item>
+        <item quantity="other">Não é possível convidar mais de %1$d pessoas para usar o serviço de pagamentos de uma só vez.</item>
+    </plurals>
+    <plurals name="payments_multi_invite_snackbar">
+        <item quantity="one">Enviando convite para %1$d contato</item>
+        <item quantity="other">Enviando convite para %1$d contatos</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="one">Solicitação pendente</item>
+        <item quantity="other">Solicitações pendentes</item>
+    </plurals>
+</resources>
